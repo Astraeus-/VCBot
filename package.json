@@ -1,0 +1,22 @@
+{
+  "name": "vcbot",
+  "version": "1.0.0",
+  "description": "",
+  "private": "true",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node .",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "eslint": "eslint src",
+    "eslint:fix": "eslint src --fix"
+  },
+  "author": "Astraeus-",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "eris": "^0.13.3"
+  },
+  "devDependencies": {
+    "eslint": "^7.7.0"
+  }
+}
