@@ -79,12 +79,11 @@ class VCManager {
         continue;
       }
 
+      this.voiceChannels.set(channel.id, channel);
+
       if (this.isReadyToDelete(channel)) {
         this.deleteChannel(channel);
-        continue;
       }
-
-      this.voiceChannels.set(channel.id, channel);
     }
   }
 }
