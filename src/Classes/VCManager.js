@@ -74,7 +74,9 @@ class VCManager {
    * @param {CategoryChannel} category 
    */
   populateChannels(category) {
-    for (const channel of category.channels) {
+    const categoryChannels = category.channels.values();
+
+    for (const channel of categoryChannels) {
       if (channel.type !== 2 || channel.id === creationChannel || channel.id === general) {
         continue;
       }
