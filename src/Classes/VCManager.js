@@ -77,7 +77,7 @@ class VCManager {
     const categoryChannels = category.channels.values();
 
     for (const channel of categoryChannels) {
-      if (channel.type !== 2 || channel.id === creationChannel || channel.id === general) {
+      if (channel.type !== 2 || channel.id === creationChannel || channel.id === general || channel.id === '755096652871762031') {
         continue;
       }
 
