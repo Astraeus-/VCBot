@@ -19,7 +19,7 @@ class VCManager {
         {
           id: member.id,
           type: 'member',
-          allow: 268435472,
+          allow: 16,
           deny: 0
         }
       ]
